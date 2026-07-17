@@ -1,0 +1,41 @@
+/* GitLab Project (Group B): CSD-380 Module 9.2 - CSS Style Sheet */
+/* Seahawks CSS Color scheme used in CSD 340 assignment */
+/* Added blockquote and blockquote footer */
+
+/* Default Body Color, Size, Spacing and Font Settings */
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	color: black;
+	line-height: 1.5;
+	margin: 20px;
+}
+
+/* H1 Heading for index.html */
+h1 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #002244; /* College Navy */
+	margin-bottom: 25px;
+}
+
+
+/* Block Quote for index.html */ 
+blockquote {
+    font-family: 'Roboto', sans-serif;
+	background-color: #A5ACAF; /* Wolf Grey */
+    border-left: 5px solid #69BE28; /* Action Green */
+    padding: 15px;
+    font-style: italic;
+	margin: 20px auto;
+}
+
+
+/* Block Quote Footer for index.html */
+blockquote footer {
+    margin-top: 10px;
+    color: #002244; /* College Navy */
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+}
